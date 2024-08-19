@@ -8,7 +8,7 @@ with open(this_directory / "requirements.txt", 'r', encoding='utf-8') as f:
 
 setup(
     name = "datasonar",
-    version = "1.0",
+    version = "1.0.1",
     author = "Neyzu",
     packages = find_packages(),
     install_requires = requirements,    
